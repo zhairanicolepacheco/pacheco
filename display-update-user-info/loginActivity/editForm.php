@@ -65,17 +65,14 @@ if (!isset($_SESSION["studId"])) {
                 echo $error . "<br>";
             }
         } else {
-            // Construct the UPDATE query with proper variable names and concatenation
             $update = "UPDATE student_table 
                        SET Last_Name = '$lname', First_Name = '$fname', Middle_Name = '$mname', 
                            Age = '$age', Birthday = '$bday', Religion = '$rel', Address = '$add', 
                            Contact_No = '$contact', Email_Address= '$email', Username = '$username'
                        WHERE Student_ID = '$studId'";
         
-            // Execute the UPDATE query
             mysqli_query($con, $update);
         
-            // Provide feedback to the user
             echo "<script>alert('UPDATE COMPLETE!');
                   window.location = 'index.php';</script>";
         }        
