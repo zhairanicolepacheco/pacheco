@@ -1,0 +1,168 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f0f0f0;
+	font-family: sans-serif;
+	display: grid;
+	height: 100vh;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#top-nav-bar {
+    background-color: #11235A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+	padding: 0.7vh;
+    height: 7vh;
+}
+
+.logo {
+    padding: 0.5vh;
+    height: 5vh;
+}
+
+#hyperLinks {
+    display: flex;
+    gap: 2vw;
+    padding: 1vh;
+}
+
+h3 {
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+#logoutLink {
+    background-color: #161A30;
+    color: white;
+    padding: 1vw 1.5vw;
+    height: 5vh;
+    width: auto;
+}
+
+#logoutLink:hover {
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vh;
+    padding: 0.1vw 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a#homeLink,
+a#userLink {
+    border-bottom: 0.2vw solid transparent;
+    transition: border-bottom-color 0.3s ease
+}
+
+a#homeLink:hover,
+a#userLink:hover {
+    border-bottom-color: white;
+}
+
+#bottom-page {
+    margin: 0;
+	padding: 2vw 5vw;
+    display: flex;
+    height: 93vh;
+}
+
+#left-part {
+    background-color: #B4D4FF;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.25);
+    width: 30%;
+    height:90%;
+    margin: 1vw;
+    border-radius: 0.6vw;
+    padding: 2vw;
+    display: grid;
+    justify-items: center;
+    align-content: start;
+}
+
+.userIcon {
+    height: 18vh;
+    width: 18vh;
+}
+
+h1 {
+    font-size: 2vh;
+    padding: 3vw 0 0 0 ;
+    margin: 0;
+}
+
+#right-part {
+    background-color: #EEF5FF;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.25);
+    width: 70%;
+    height:90%;
+    margin: 1vw;
+    border-radius: 0.6vw;
+    padding: 2vw;
+    overflow: auto;
+}
+
+h2 {
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+
+.echoContainer {
+    display: flex;
+    height: 6%;
+
+}
+
+h4 {
+    font-size: 1.5vh;
+    padding: 1vw;
+    margin: 0;
+}
+
+p {
+    font-size: 1.8vh;
+    padding: 1vw;
+    margin: 0;
+}
+
+#btnBox {
+    display: flex;
+    justify-content: start;
+    margin: 2vh 0;
+}
+
+#btn {
+    background-color: #161A30;
+    color: white;
+    padding: 1vw 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    height: 5vh;
+    width: auto;
+    font-size: 1.2vh;
+}
+
+#btn:hover {
+    opacity: 70%;
+}
+
+.editIcon {
+    width: 1.3vw;
+    height: 1.3vw;
+}
