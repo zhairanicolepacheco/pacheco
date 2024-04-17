@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('bg2.jpg');
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 10px 2px rgba(100, 100,100, 0.3);
+    border-radius: 2vw;
+    border-width: 1vw;
+    border-color: white;
+    width: auto;
+    height: auto;
+    padding: 2vw;
+    margin: 0;
+    display: grid;
+    align-content: center;
+	justify-items: center;
+}
+
+h2 {
+    padding: 0 0 2vh 0;
+    margin: 0;
+    color: black;
+    font-size: 4vh;
+}
+
+h3 {
+    padding: 0 0 2vh 0;
+    margin: 0;
+    color: black;
+    font-size: 2vh;
+}
+
+#form_container {
+    display: grid;
+    align-content: center;
+	justify-items: center;
+    gap: 1vh;
+}
+
+.field-container {
+	font-family: sans-serif;
+	display: grid;
+	gap: 1vh;
+	margin: 1vw 1vw;
+	align-self: center;
+	justify-self: center;
+}
+
+input {
+	background-color: #F0F0F0;
+	border: 1px solid #999999;
+	border-radius: .5vw;
+	font-family: sans-serif;
+	font-size: 2h;
+	text-align: left;
+	padding: .7vw;
+}
+
+.btn {
+    background-color: rgb(255, 196, 196);
+    cursor: pointer; 
+	width: 16vw;
+	padding: 1.5vh 3vw;
+	margin: 0 1vw;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(230, 178, 136);
+}
+
+p {
+    font-size: 1.8vh;
+}
